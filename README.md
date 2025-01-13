@@ -218,6 +218,10 @@ Use `gcc` to comment out a line (takes a count), `gc` to comment out the target 
 
 Sorts tailwind classes into a logical order. This config uses an autocommand that sorts on file save if the tailwindcsss LSP is attached to the buffer. Otherwise can be ran manually with the command `:TailwindSort`
 
+### [tiny-glimmer.nvim](https://github.com/rachartier/tiny-glimmer.nvim)
+
+Adds subtle animations to yank operations improving user experience and feedback.
+
 ## Spell Checking
 
 `<leader>sp` toggles the highlighting of miss-spelled words. While the cursor is over a miss-spelled word in insert mode we can press `<C-x>` followed by `s` to bring up a completion menu. To add a word to the dictionary use `zg` while in normal mode.
